@@ -1,0 +1,148 @@
+body{
+    font-family: "Roboto";
+    background-color: rgb(32, 101, 136);
+    color:white;
+    margin:0;
+    padding: 0;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.top-links {
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.npm_logo{
+    width:100px;
+}
+header{
+    background-image: url("images/city-scape.svg");
+    height:450px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.search input{
+    width:70%;
+    background-color: rgb(31, 82, 111);
+    border: 1px solid #888;
+    height: 30px;
+    font-size: 16px;
+}
+.search button{
+    background-color: rgb(31, 82, 111);
+    border: 1px solid #888;
+    float: right;
+    height: 30px;
+    color: #888;
+}
+.bear{
+    width: 30px;
+}
+.search ul{
+    display: flex;
+    align-items: center;
+}
+.search li{
+    display: inline;
+}
+.header-text{
+    position: absolute;
+    left:100px;
+    width:40%;
+}
+.header-text button{
+    background-color: rgb(240, 146, 51);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    font-size:18px;
+    color:white;
+    margin-top: 20px;
+}
+#goals{
+    display:flex;
+    justify-content: space-around;
+    padding:60px 0;
+    background-color: rgb(39, 53, 71);
+}
+#goals img{
+    width:30%;
+}
+.goals_text{
+    display: inline-block;
+}
+#goals button{
+    background-color: rgb(203, 56, 55);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+}
+#goals a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+#presentation{
+    background-image: url(images/forklift.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:500px;
+    position: relative;
+}
+#presentation div{
+    position: absolute;
+    width:30%;
+    top:100px;
+    left:250px;
+}
+#presentation button{
+    background-color: rgb(49, 68, 88);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+}
+#features{
+    background-color: white;
+    color: rgb(49, 68, 88);
+    padding: 30px 0;
+}
+.feature-text{
+    margin: 0 auto;
+    width:70%;
+    text-align: center;
+}
+.feature-components{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.feature-components a{
+    color:rgb(208, 74, 73);
+    text-decoration: none;
+}
+.feature-components > div{
+    padding: 30px;
+    width:33%;
+}
+.subtitle{
+    font-weight: 500;
+}
